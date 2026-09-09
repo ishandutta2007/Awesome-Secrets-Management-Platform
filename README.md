@@ -150,59 +150,33 @@ These are **commercial platforms** and are deliberately kept separate from the o
 
 
 
-| Platform                                                                                  | Primary Focus                          | Typical Strengths                                                |
-
-| ----------------------------------------------------------------------------------------- | -------------------------------------- | ---------------------------------------------------------------- |
-
-| [HashiCorp Vault](https://www.hashicorp.com/en/products/vault)                            | Enterprise secrets / identity security | Dynamic secrets, PKI, encryption, identity-based access          |
-
-| [HCP Vault](https://www.hashicorp.com/en/products/vault)                                  | Managed Vault                          | Hosted Vault, cloud operations, enterprise security              |
-
-| [Infisical](https://infisical.com/)                                                       | Developer secrets platform             | Secrets, certificates, secret scanning, developer workflows      |
-
-| [Doppler](https://www.doppler.com/)                                                       | Developer secrets / configuration      | Environment synchronization, integrations, developer UX          |
-
-| [Akeyless](https://www.akeyless.io/)                                                      | Cloud secrets management               | Zero-knowledge architecture, dynamic secrets, DFC, hybrid access |
-
-| [Keeper Secrets Manager](https://www.keepersecurity.com/secrets-manager.html)             | Machine secrets                        | API-driven secrets, DevOps, zero-knowledge architecture          |
-
-| [1Password Secrets Automation](https://developer.1password.com/docs/secrets-automation/)  | Developer / machine secrets            | Service accounts, CLI, SDKs, Connect                             |
-
-| [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)                            | AWS-native secrets                     | Rotation, IAM integration, AWS services                          |
-
-| [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/)                  | Azure secrets / keys                   | Secrets, certificates, keys, managed identities                  |
-
-| [Google Secret Manager](https://cloud.google.com/security/products/secret-manager)        | GCP-native secrets                     | IAM, versioning, audit, GCP integration                          |
-
-| [StrongDM](https://www.strongdm.com/)                                                     | Infrastructure access                  | Zero-trust access, identity-aware infrastructure access          |
-
-| [CyberArk Conjur / Secrets Manager](https://www.cyberark.com/products/secrets-management) | Machine identity / DevOps secrets      | Workload identity, policy, privileged access                     |
-
-| [GitGuardian Internal Monitoring](https://www.gitguardian.com/internal-monitoring)        | Secret detection                       | Secret discovery, remediation, developer security                |
-
-| [Bitwarden Secrets Manager](https://bitwarden.com/products/secrets-manager/)              | Machine secrets                        | Secrets for developers and infrastructure                        |
-
-| [1Password](https://1password.com/)                                                       | Human + machine credentials            | Enterprise password and secrets management                       |
-
-| [BeyondTrust Password Safe](https://www.beyondtrust.com/products/password-safe)           | Privileged access                      | PAM, credential management, privileged sessions                  |
-
-| [Delinea Secret Server](https://delinea.com/products/secret-server)                       | PAM / secrets                          | Privileged credentials, discovery, rotation                      |
-
-| [Keeper Enterprise](https://www.keepersecurity.com/enterprise.html)                       | Enterprise credential security         | Passwords, secrets, privileged access                            |
-
-| [Google Cloud Secret Manager](https://cloud.google.com/secret-manager)                    | Cloud secrets                          | GCP IAM, versioning and audit                                    |
-
-| [IBM Cloud Secrets Manager](https://www.ibm.com/products/secrets-manager)                 | Cloud secrets                          | Centralized secret storage and certificate management            |
-
-| [Oracle Cloud Vault](https://www.oracle.com/security/cloud-security/key-management/)      | Keys / secrets                         | OCI-native key and secret management                             |
-
-| [Pulumi ESC](https://www.pulumi.com/product/secrets-management/)                          | Environment / secrets management       | Cloud secrets aggregation and environment configuration          |
-
-| [Azure Managed HSM](https://azure.microsoft.com/en-us/products/managed-hsm)               | HSM / keys                             | Hardware-backed key management                                   |
-
-| [AWS KMS](https://aws.amazon.com/kms/)                                                    | Key management                         | Encryption keys, cryptographic operations                        |
-
-| [Google Cloud KMS](https://cloud.google.com/kms)                                          | Key management                         | Cloud-native cryptographic key management                        |
+| Platform | Primary Focus | Typical Strengths | Pricing | Free Tier Limit |
+| --- | --- | --- | --- | --- |
+| [HashiCorp Vault](https://www.hashicorp.com/en/products/vault) | Enterprise secrets / identity security | Dynamic secrets, PKI, encryption, identity-based access | Enterprise license starts at ~$15,000/year (or self-hosted Community Edition under BSL 1.1) | Community Edition free for internal/lab use; Enterprise offers a 30-day proof-of-concept trial |
+| [HCP Vault](https://www.hashicorp.com/en/products/vault) | Managed Vault | Hosted Vault, cloud operations, enterprise security | $0.03/hour (~$22/month) for Dev cluster; Starter clusters start at $0.53/hour (~$380/month) | 30-day trial with $500 free credits across HashiCorp Cloud Platform |
+| [Infisical](https://infisical.com/) | Developer secrets platform | Secrets, certificates, secret scanning, developer workflows | $18/user/month (or $10/user/month billed annually) for Pro tier | Free forever for up to 5 identities (human + machine), 3 projects, 3 environments/project, and 10 integrations |
+| [Doppler](https://www.doppler.com/) | Developer secrets / configuration | Environment synchronization, integrations, developer UX | $8/user/month for additional seats; Team plan starts at $21/user/month ($18 billed annually) | Free forever for up to 3 users, 10 projects, 4 environments/project, 10 configs/environment, and 3-day logs |
+| [Akeyless](https://www.akeyless.io/) | Cloud secrets management | Zero-knowledge architecture, dynamic secrets, DFC, hybrid access | Starts at ~$2,500/year (~$208/month) for commercial plans / ~$0.50–$1.00 per client/month | Free forever for up to 5 clients (identities), 2,000 static secrets, 5 dynamic secrets, 5 rotated secrets, 1 gateway, and 3-day logs |
+| [Keeper Secrets Manager](https://www.keepersecurity.com/secrets-manager.html) | Machine secrets | API-driven secrets, DevOps, zero-knowledge architecture | Starts at $1.00–$3.00/user/month as add-on (or standalone plans starting at ~$3,000/year) | 14-day free trial with full API, SDK, and CLI secrets management access |
+| [1Password Secrets Automation](https://developer.1password.com/docs/secrets-automation/) | Developer / machine secrets | Service accounts, CLI, SDKs, Connect | Included with 1Password Business at $7.99/user/month billed annually ($8.99 billed monthly; includes 3 service accounts) | 14-day free trial of 1Password Business with service account automation capabilities |
+| [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) | AWS-native secrets | Rotation, IAM integration, AWS services | $0.40 per secret/month + $0.05 per 10,000 API calls | 30-day free trial per secret from creation (plus $200 free tier credits for new AWS accounts for 6 months) |
+| [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) | Azure secrets / keys | Secrets, certificates, keys, managed identities | $0.03 per 10,000 operations for secrets & software keys ($3.00/certificate renewal; no secret storage fee) | 30-day free trial with $200 Azure credits; no ongoing base monthly subscription fee on pay-as-you-go |
+| [Google Secret Manager](https://cloud.google.com/security/products/secret-manager) | GCP-native secrets | IAM, versioning, audit, GCP integration | $0.06 per active secret version/month + $0.03 per 10,000 access operations + $0.05 per rotation notification | Free forever for 6 active secret versions, 10,000 access operations, and 3 rotation notifications per month (plus $300 90-day GCP trial credit) |
+| [StrongDM](https://www.strongdm.com/) | Infrastructure access | Zero-trust access, identity-aware infrastructure access | Starts at $70/user/month (all resources included: servers, databases, clusters) | 14-day free trial with full access to all zero-trust access management capabilities |
+| [CyberArk Conjur / Secrets Manager](https://www.cyberark.com/products/secrets-management) | Machine identity / DevOps secrets | Workload identity, policy, privileged access | Commercial enterprise packages start at ~$23,328/year (~$1,944/month for 20 users / ~$1,000–$1,500 per identity/year) | Free forever for Conjur Open Source (OSS) with core CLI/API/SDK features; enterprise evaluation via 30-day guided POC |
+| [GitGuardian Internal Monitoring](https://www.gitguardian.com/internal-monitoring) | Secret detection | Secret discovery, remediation, developer security | Business tier starts at $18/contributing developer/month (or $220/developer/year) | Free forever for teams with up to 25 contributing developers on private collaborative repositories (or 14-day trial of Business tier) |
+| [Bitwarden Secrets Manager](https://bitwarden.com/products/secrets-manager/) | Machine secrets | Secrets for developers and infrastructure | Teams tier starts at $6/user/month (billed annually) with 20 machine accounts; Enterprise at $12/user/month | Free forever plan for up to 2 users, 3 projects, and 3 machine accounts with unlimited secret storage |
+| [1Password](https://1password.com/) | Human + machine credentials | Enterprise password and secrets management | Individual at $2.99/month; Teams Starter Pack at $19.95/month for 10 users; Business at $7.99/user/month (billed annually) | 14-day free trial with full feature access across apps and browser extensions |
+| [BeyondTrust Password Safe](https://www.beyondtrust.com/products/password-safe) | Privileged access | PAM, credential management, privileged sessions | Starts at ~$157 per managed asset/year (~$13.08/asset/month) or ~$3,139/month for 500 managed assets | 30-day enterprise Proof of Concept (POC) trial available on request |
+| [Delinea Secret Server](https://delinea.com/products/secret-server) | PAM / secrets | Privileged credentials, discovery, rotation | Starts at ~$8 to $14 per privileged account/month ($96 to $168/account/year; base entry contracts starting ~$10,000/year) | 30-day free trial for up to 10 users (free single-user evaluation edition available) |
+| [Keeper Enterprise](https://www.keepersecurity.com/enterprise.html) | Enterprise credential security | Passwords, secrets, privileged access | Keeper Business starts at $3.75/user/month; Keeper Enterprise starts at $6.00/user/month ($72/user/year billed annually) | 14-day free trial for business and enterprise plans |
+| [Google Cloud Secret Manager](https://cloud.google.com/secret-manager) | Cloud secrets | GCP IAM, versioning and audit | $0.06 per active secret version/month + $0.03 per 10,000 access operations + $0.05 per rotation notification | Free forever for 6 active secret versions, 10,000 access operations, and 3 rotation notifications per month (plus $300 90-day GCP trial credit) |
+| [IBM Cloud Secrets Manager](https://www.ibm.com/products/secrets-manager) | Cloud secrets | Centralized secret storage and certificate management | Standard plan starts at $324/instance/month + $2.17 per 10 active secrets/month ($0.217 per active secret) | 30-day free trial with 1 trial instance and unlimited access to all service capabilities |
+| [Oracle Cloud Vault](https://www.oracle.com/security/cloud-security/key-management/) | Keys / secrets | OCI-native key and secret management | Free for software keys & secrets; $0.53 per HSM key version/month beyond 20 free versions (Private Vaults at $2.69/hour) | Always Free tier includes unlimited software keys, 150 secrets (40 versions each), and first 20 HSM key versions free (plus $300 30-day trial credits) |
+| [Pulumi ESC](https://www.pulumi.com/product/secrets-management/) | Environment / secrets management | Cloud secrets aggregation and environment configuration | Team Edition starts at $0.50 per secret/month + $0.10 per 10,000 API calls (overage); Enterprise at $0.75 per secret/month | Free forever for up to 25 secrets and 10,000 API calls per month (plaintext config is unlimited and free) |
+| [Azure Managed HSM](https://azure.microsoft.com/en-us/products/managed-hsm) | HSM / keys | Hardware-backed key management | Starts at $3.20/hour (~$2,336/month) per B1 instance pool (includes 3 HSM partitions) | 30-day free trial via $200 Azure new account credit (covers ~62.5 hours of testing; no permanent free tier) |
+| [AWS KMS](https://aws.amazon.com/kms/) | Key management | Encryption keys, cryptographic operations | $1.00 per customer managed key/month + $0.03 per 10,000 requests (AWS managed keys have no storage fee) | Free forever for 20,000 requests per month across all regions (excludes asymmetric keys; plus $200 new account credits) |
+| [Google Cloud KMS](https://cloud.google.com/kms) | Key management | Cloud-native cryptographic key management | $0.06 per active key version/month + $0.03 per 10,000 cryptographic operations (software keys; admin ops free) | Free forever for up to 100 active key versions and 10,000 operations per month via Cloud KMS Autokey (plus $300 90-day GCP trial credit) |
 
 
 
