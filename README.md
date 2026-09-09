@@ -282,13 +282,56 @@ Encryption / KMS
 
 ---
 
+## 🌟 Open-Source Secrets Management Leaderboard
 
+All open-source repositories ranked by GitHub stars in descending order:
+
+| Rank | Project | GitHub Stars | Category | Primary Focus |
+| :---: | --- | :---: | --- | --- |
+| 1 | [Vaultwarden](https://github.com/dani-garcia/vaultwarden) | [![GitHub stars](https://img.shields.io/github/stars/dani-garcia/vaultwarden?style=social&color=white)](https://github.com/dani-garcia/vaultwarden/stargazers) | Team / Password Manager | Lightweight Rust implementation of Bitwarden backend |
+| 2 | [OpenSSL](https://github.com/openssl/openssl) | [![GitHub stars](https://img.shields.io/github/stars/openssl/openssl?style=social&color=white)](https://github.com/openssl/openssl/stargazers) | Cryptography & TLS | Foundation cryptographic library and TLS toolkit |
+| 3 | [Infisical](https://github.com/Infisical/infisical) | [![GitHub stars](https://img.shields.io/github/stars/Infisical/infisical?style=social&color=white)](https://github.com/Infisical/infisical/stargazers) | Full Secrets Platform | End-to-end secrets, PKI, and privileged access management |
+| 4 | [Gitleaks](https://github.com/gitleaks/gitleaks) | [![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers) | Secret Detection | Fast, standalone git secret & credential scanner |
+| 5 | [KeePassXC](https://github.com/keepassxreboot/keepassxc) | [![GitHub stars](https://img.shields.io/github/stars/keepassxreboot/keepassxc?style=social&color=white)](https://github.com/keepassxreboot/keepassxc/stargazers) | Team / Password Manager | Cross-platform community password & credential manager |
+| 6 | [TruffleHog](https://github.com/trufflesecurity/trufflehog) | [![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers) | Secret Detection | Deep credential hunting & automated verification |
+| 7 | [age](https://github.com/FiloSottile/age) | [![GitHub stars](https://img.shields.io/github/stars/FiloSottile/age?style=social&color=white)](https://github.com/FiloSottile/age/stargazers) | GitOps / Cryptography | Modern file encryption tool with small explicit keys |
+| 8 | [SOPS](https://github.com/getsops/sops) | [![GitHub stars](https://img.shields.io/github/stars/getsops/sops?style=social&color=white)](https://github.com/getsops/sops/stargazers) | GitOps / Encrypted Secrets | Encrypted files with KMS, age, and PGP integration |
+| 9 | [Bitwarden Server](https://github.com/bitwarden/server) | [![GitHub stars](https://img.shields.io/github/stars/bitwarden/server?style=social&color=white)](https://github.com/bitwarden/server/stargazers) | Team / Password Manager | Enterprise password and secrets management backend |
+| 10 | [Semgrep](https://github.com/semgrep/semgrep) | [![GitHub stars](https://img.shields.io/github/stars/semgrep/semgrep?style=social&color=white)](https://github.com/semgrep/semgrep/stargazers) | Secret Detection / SAST | Code analysis & semantic pattern secret detector |
+| 11 | [git-secrets](https://github.com/awslabs/git-secrets) | [![GitHub stars](https://img.shields.io/github/stars/awslabs/git-secrets?style=social&color=white)](https://github.com/awslabs/git-secrets/stargazers) | Secret Detection | AWS-developed pre-commit git secret blocker |
+| 12 | [git-crypt](https://github.com/AGWA/git-crypt) | [![GitHub stars](https://img.shields.io/github/stars/AGWA/git-crypt?style=social&color=white)](https://github.com/AGWA/git-crypt/stargazers) | GitOps / Encrypted Secrets | Transparent repository file encryption for git |
+| 13 | [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) | [![GitHub stars](https://img.shields.io/github/stars/bitnami-labs/sealed-secrets?style=social&color=white)](https://github.com/bitnami-labs/sealed-secrets/stargazers) | Kubernetes Secrets | One-way encrypted Kubernetes Secrets controller |
+| 14 | [step-ca](https://github.com/smallstep/certificates) | [![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates?style=social&color=white)](https://github.com/smallstep/certificates/stargazers) | PKI / Certificate Authority | Automated private CA, X.509, ACME, and SSH credentials |
+| 15 | [OpenBao](https://github.com/openbao/openbao) | [![GitHub stars](https://img.shields.io/github/stars/openbao/openbao?style=social&color=white)](https://github.com/openbao/openbao/stargazers) | Full Secrets Platform | OpenSSF-governed fork of HashiCorp Vault |
+| 16 | [gopass](https://github.com/gopasspw/gopass) | [![GitHub stars](https://img.shields.io/github/stars/gopasspw/gopass?style=social&color=white)](https://github.com/gopasspw/gopass/stargazers) | CLI / Developer Secrets | Team password and secret manager for CLI workflows |
+| 17 | [External Secrets Operator](https://github.com/external-secrets/external-secrets) | [![GitHub stars](https://img.shields.io/github/stars/external-secrets/external-secrets?style=social&color=white)](https://github.com/external-secrets/external-secrets/stargazers) | Kubernetes Secrets | Synchronizes external secrets APIs directly to K8s |
+| 18 | [Passbolt](https://github.com/passbolt/passbolt_api) | [![GitHub stars](https://img.shields.io/github/stars/passbolt/passbolt_api?style=social&color=white)](https://github.com/passbolt/passbolt_api/stargazers) | Team Password Manager | Open-source API and team password manager with OpenPGP |
+| 19 | [detect-secrets](https://github.com/Yelp/detect-secrets) | [![GitHub stars](https://img.shields.io/github/stars/Yelp/detect-secrets?style=social&color=white)](https://github.com/Yelp/detect-secrets/stargazers) | Secret Detection | Yelp baseline-based secret scanner for enterprise CI/CD |
+| 20 | [Teller](https://github.com/spectralops/teller) | [![GitHub stars](https://img.shields.io/github/stars/spectralops/teller?style=social&color=white)](https://github.com/spectralops/teller/stargazers) | CLI / Developer Secrets | Multi-vault secret manager for development and CI/CD |
+| 21 | [Keywhiz](https://github.com/square/keywhiz) | [![GitHub stars](https://img.shields.io/github/stars/square/keywhiz?style=social&color=white)](https://github.com/square/keywhiz/stargazers) | Full Secrets Platform | Square's infrastructure secret distribution platform |
+| 22 | [Chamber](https://github.com/segmentio/chamber) | [![GitHub stars](https://img.shields.io/github/stars/segmentio/chamber?style=social&color=white)](https://github.com/segmentio/chamber/stargazers) | CLI / Cloud Secrets | Segment's CLI for AWS Systems Manager Parameter Store |
+| 23 | [Bank-Vaults](https://github.com/bank-vaults/bank-vaults) | [![GitHub stars](https://img.shields.io/github/stars/bank-vaults/bank-vaults?style=social&color=white)](https://github.com/bank-vaults/bank-vaults/stargazers) | Kubernetes / Secret Injection | Vault operator & mutating webhook for container injection |
+| 24 | [Envconsul](https://github.com/hashicorp/envconsul) | [![GitHub stars](https://img.shields.io/github/stars/hashicorp/envconsul?style=social&color=white)](https://github.com/hashicorp/envconsul/stargazers) | Secret Injection | Environment variable injection from Consul and Vault |
+| 25 | [Credstash](https://github.com/fugue/credstash) | [![GitHub stars](https://img.shields.io/github/stars/fugue/credstash?style=social&color=white)](https://github.com/fugue/credstash/stargazers) | CLI / Cloud Secrets | Lightweight KMS and DynamoDB credential storage |
+| 26 | [ggshield](https://github.com/GitGuardian/ggshield) | [![GitHub stars](https://img.shields.io/github/stars/GitGuardian/ggshield?style=social&color=white)](https://github.com/GitGuardian/ggshield/stargazers) | Secret Detection | GitGuardian CLI for pre-commit and pipeline scanning |
+| 27 | [TeamPass](https://github.com/nilsteampassnet/TeamPass) | [![GitHub stars](https://img.shields.io/github/stars/nilsteampassnet/TeamPass?style=social&color=white)](https://github.com/nilsteampassnet/TeamPass/stargazers) | Team Password Manager | Collaborative team password & credential manager |
+| 28 | [Secrets Store CSI Driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver) | [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/secrets-store-csi-driver?style=social&color=white)](https://github.com/kubernetes-sigs/secrets-store-csi-driver/stargazers) | Kubernetes Secrets | Official Kubernetes SIG secrets volume driver |
+| 29 | [Secretlint](https://github.com/secretlint/secretlint) | [![GitHub stars](https://img.shields.io/github/stars/secretlint/secretlint?style=social&color=white)](https://github.com/secretlint/secretlint/stargazers) | Secret Detection | Pluggable credential linting engine |
+| 30 | [Knox](https://github.com/pinterest/knox) | [![GitHub stars](https://img.shields.io/github/stars/pinterest/knox?style=social&color=white)](https://github.com/pinterest/knox/stargazers) | Full Secrets Platform | Pinterest's cryptographic key and secret management service |
+| 31 | [SoftHSM2](https://github.com/opendnssec/SoftHSMv2) | [![GitHub stars](https://img.shields.io/github/stars/opendnssec/SoftHSMv2?style=social&color=white)](https://github.com/opendnssec/SoftHSMv2/stargazers) | HSM / Cryptography | Software implementation of a PKCS#11 cryptographic HSM |
+| 32 | [GnuPG](https://github.com/gpg/gnupg) | [![GitHub stars](https://img.shields.io/github/stars/gpg/gnupg?style=social&color=white)](https://github.com/gpg/gnupg/stargazers) | Cryptography / PGP | Complete OpenPGP standard cryptographic suite |
+| 33 | [CyberArk Conjur](https://github.com/cyberark/conjur) | [![GitHub stars](https://img.shields.io/github/stars/cyberark/conjur?style=social&color=white)](https://github.com/cyberark/conjur/stargazers) | Machine Identity / Secrets | Workload identity and access control platform |
+| 34 | [KSOPS](https://github.com/viaduct-ai/kustomize-sops) | [![GitHub stars](https://img.shields.io/github/stars/viaduct-ai/kustomize-sops?style=social&color=white)](https://github.com/viaduct-ai/kustomize-sops/stargazers) | GitOps Secrets | Kustomize plugin for SOPS-encrypted resources |
+| 35 | [Vals](https://github.com/helmfile/vals) | [![GitHub stars](https://img.shields.io/github/stars/helmfile/vals?style=social&color=white)](https://github.com/helmfile/vals/stargazers) | GitOps / Secret Injection | Multi-backend secret configuration loader |
+| 36 | [Psono](https://github.com/psono/psono-server) | [![GitHub stars](https://img.shields.io/github/stars/psono/psono-server?style=social&color=white)](https://github.com/psono/psono-server/stargazers) | Team Password Manager | Zero-knowledge team password manager server |
+
+---
 
 # Full Secrets Management Platforms
 
 
 
-## 1. OpenBao
+## 1. OpenBao [![GitHub stars](https://img.shields.io/github/stars/openbao/openbao?style=social&color=white)](https://github.com/openbao/openbao/stargazers)
 
 
 
@@ -374,7 +417,7 @@ OpenBao is particularly important for organizations seeking a community-governed
 
 
 
-# 2. Infisical
+# 2. Infisical [![GitHub stars](https://img.shields.io/github/stars/Infisical/infisical?style=social&color=white)](https://github.com/Infisical/infisical/stargazers)
 
 
 
@@ -460,7 +503,7 @@ PKI
 
 
 
-# 3. CyberArk Conjur Open Source
+# 3. CyberArk Conjur Open Source [![GitHub stars](https://img.shields.io/github/stars/cyberark/conjur?style=social&color=white)](https://github.com/cyberark/conjur/stargazers)
 
 
 
@@ -542,7 +585,7 @@ Machine identity + policy
 
 
 
-# 4. Bitwarden
+# 4. Bitwarden [![GitHub stars](https://img.shields.io/github/stars/bitwarden/server?style=social&color=white)](https://github.com/bitwarden/server/stargazers)
 
 
 
@@ -608,7 +651,7 @@ Team Password Manager
 
 
 
-# 5. Passbolt
+# 5. Passbolt [![GitHub stars](https://img.shields.io/github/stars/passbolt/passbolt_api?style=social&color=white)](https://github.com/passbolt/passbolt_api/stargazers)
 
 
 
@@ -680,7 +723,7 @@ Team credential management
 
 
 
-# 6. Psono
+# 6. Psono [![GitHub stars](https://img.shields.io/github/stars/psono/psono-server?style=social&color=white)](https://github.com/psono/psono-server/stargazers)
 
 
 
@@ -724,7 +767,7 @@ Open-source password manager designed for teams and organizations.
 
 
 
-# 7. Teampass
+# 7. Teampass [![GitHub stars](https://img.shields.io/github/stars/nilsteampassnet/TeamPass?style=social&color=white)](https://github.com/nilsteampassnet/TeamPass/stargazers)
 
 
 
@@ -760,7 +803,7 @@ Open-source collaborative password manager.
 
 
 
-# 8. Vaultwarden
+# 8. Vaultwarden [![GitHub stars](https://img.shields.io/github/stars/dani-garcia/vaultwarden?style=social&color=white)](https://github.com/dani-garcia/vaultwarden/stargazers)
 
 
 
@@ -816,7 +859,7 @@ These tools are extremely important when secrets need to live in Git repositorie
 
 
 
-# 9. SOPS
+# 9. SOPS [![GitHub stars](https://img.shields.io/github/stars/getsops/sops?style=social&color=white)](https://github.com/getsops/sops/stargazers)
 
 
 
@@ -884,7 +927,7 @@ Encrypted configuration
 
 
 
-# 10. age
+# 10. age [![GitHub stars](https://img.shields.io/github/stars/FiloSottile/age?style=social&color=white)](https://github.com/FiloSottile/age/stargazers)
 
 
 
@@ -936,7 +979,7 @@ Encrypted secrets in Git
 
 
 
-# 11. git-crypt
+# 11. git-crypt [![GitHub stars](https://img.shields.io/github/stars/AGWA/git-crypt?style=social&color=white)](https://github.com/AGWA/git-crypt/stargazers)
 
 
 
@@ -964,7 +1007,7 @@ Transparent file encryption inside Git repositories.
 
 
 
-# 12. Sealed Secrets
+# 12. Sealed Secrets [![GitHub stars](https://img.shields.io/github/stars/bitnami-labs/sealed-secrets?style=social&color=white)](https://github.com/bitnami-labs/sealed-secrets/stargazers)
 
 
 
@@ -1004,7 +1047,7 @@ Encrypted Secrets
 
 
 
-# 13. KSOPS
+# 13. KSOPS [![GitHub stars](https://img.shields.io/github/stars/viaduct-ai/kustomize-sops?style=social&color=white)](https://github.com/viaduct-ai/kustomize-sops/stargazers)
 
 
 
@@ -1048,7 +1091,7 @@ GitOps
 
 
 
-## 14. External Secrets Operator
+## 14. External Secrets Operator [![GitHub stars](https://img.shields.io/github/stars/external-secrets/external-secrets?style=social&color=white)](https://github.com/external-secrets/external-secrets/stargazers)
 
 
 
@@ -1154,7 +1197,7 @@ CyberArk
 
 
 
-# 15. Secrets Store CSI Driver
+# 15. Secrets Store CSI Driver [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/secrets-store-csi-driver?style=social&color=white)](https://github.com/kubernetes-sigs/secrets-store-csi-driver/stargazers)
 
 
 
@@ -1260,7 +1303,7 @@ Vault / OpenBao / Cloud Secrets Manager
 
 
 
-## 17. gopass
+## 17. gopass [![GitHub stars](https://img.shields.io/github/stars/gopasspw/gopass?style=social&color=white)](https://github.com/gopasspw/gopass/stargazers)
 
 
 
@@ -1364,7 +1407,7 @@ Extremely simple and composable.
 
 
 
-# 19. Chamber
+# 19. Chamber [![GitHub stars](https://img.shields.io/github/stars/segmentio/chamber?style=social&color=white)](https://github.com/segmentio/chamber/stargazers)
 
 
 
@@ -1408,7 +1451,7 @@ Environment Variables
 
 
 
-# 20. Credstash
+# 20. Credstash [![GitHub stars](https://img.shields.io/github/stars/fugue/credstash?style=social&color=white)](https://github.com/fugue/credstash/stargazers)
 
 
 
@@ -1464,7 +1507,7 @@ The application still needs to **receive the secret without developers putting i
 
 
 
-## 21. Envconsul
+## 21. Envconsul [![GitHub stars](https://img.shields.io/github/stars/hashicorp/envconsul?style=social&color=white)](https://github.com/hashicorp/envconsul/stargazers)
 
 
 
@@ -1592,7 +1635,7 @@ Secret Detection
 
 
 
-# 25. Gitleaks
+# 25. Gitleaks [![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
 
 
 
@@ -1640,7 +1683,7 @@ Repository scanning
 
 
 
-# 26. TruffleHog
+# 26. TruffleHog [![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers)
 
 
 
@@ -1674,7 +1717,7 @@ Secret discovery and verification tool.
 
 
 
-# 27. ggshield
+# 27. ggshield [![GitHub stars](https://img.shields.io/github/stars/GitGuardian/ggshield?style=social&color=white)](https://github.com/GitGuardian/ggshield/stargazers)
 
 
 
@@ -1726,7 +1769,7 @@ Open-source CLI / scanning tool
 
 
 
-# 28. detect-secrets
+# 28. detect-secrets [![GitHub stars](https://img.shields.io/github/stars/Yelp/detect-secrets?style=social&color=white)](https://github.com/Yelp/detect-secrets/stargazers)
 
 
 
@@ -1758,7 +1801,7 @@ Python-based secret-detection framework.
 
 
 
-# 29. git-secrets
+# 29. git-secrets [![GitHub stars](https://img.shields.io/github/stars/awslabs/git-secrets?style=social&color=white)](https://github.com/awslabs/git-secrets/stargazers)
 
 
 
@@ -1774,7 +1817,7 @@ Prevents committing secrets and credentials to Git repositories.
 
 
 
-# 30. Secretlint
+# 30. Secretlint [![GitHub stars](https://img.shields.io/github/stars/secretlint/secretlint?style=social&color=white)](https://github.com/secretlint/secretlint/stargazers)
 
 
 
@@ -1790,7 +1833,7 @@ Secret detection framework designed for files and developer workflows.
 
 
 
-# 31. Semgrep
+# 31. Semgrep [![GitHub stars](https://img.shields.io/github/stars/semgrep/semgrep?style=social&color=white)](https://github.com/semgrep/semgrep/stargazers)
 
 
 
@@ -1810,7 +1853,7 @@ General-purpose code-security scanner that can also detect hardcoded secrets and
 
 
 
-## 32. OpenSSL
+## 32. OpenSSL [![GitHub stars](https://img.shields.io/github/stars/openssl/openssl?style=social&color=white)](https://github.com/openssl/openssl/stargazers)
 
 
 
@@ -1826,7 +1869,7 @@ Core cryptographic toolkit used by many security systems.
 
 
 
-# 33. GnuPG
+# 33. GnuPG [![GitHub stars](https://img.shields.io/github/stars/gpg/gnupg?style=social&color=white)](https://github.com/gpg/gnupg/stargazers)
 
 
 
@@ -1868,7 +1911,7 @@ Simple modern encryption tool.
 
 
 
-# 35. SoftHSM2
+# 35. SoftHSM2 [![GitHub stars](https://img.shields.io/github/stars/opendnssec/SoftHSMv2?style=social&color=white)](https://github.com/opendnssec/SoftHSMv2/stargazers)
 
 
 
@@ -1928,7 +1971,7 @@ OpenBao Transit
 
 
 
-# 37. step-ca
+# 37. step-ca [![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates?style=social&color=white)](https://github.com/smallstep/certificates/stargazers)
 
 
 
@@ -1969,6 +2012,121 @@ This makes it a useful complement to Vault/OpenBao-style secrets management.
 ---
 
 
+
+
+---
+
+# 38. KeePassXC [![GitHub stars](https://img.shields.io/github/stars/keepassxreboot/keepassxc?style=social&color=white)](https://github.com/keepassxreboot/keepassxc/stargazers)
+
+https://github.com/keepassxreboot/keepassxc
+
+https://keepassxc.org/
+
+**KeePassXC is a community-driven, cross-platform password and credentials manager.**
+
+It encrypts the entire database locally using AES-256, Twofish, or ChaCha20, ensuring zero network exposure while providing browser integration, SSH agent support, and CLI automation.
+
+### Features
+
+* Offline, local-first zero-trust encryption
+* AES-256, Twofish, ChaCha20 cryptographic engines
+* Cross-platform (Linux, macOS, Windows)
+* KeePassXC-CLI for script and pipeline automation
+* SSH agent integration
+* Browser extensions for Firefox, Chrome, Edge
+
+---
+
+# 39. Teller [![GitHub stars](https://img.shields.io/github/stars/spectralops/teller?style=social&color=white)](https://github.com/spectralops/teller/stargazers)
+
+https://github.com/spectralops/teller
+
+**Cloud-native secrets management for developers - never leave your command line for secrets.**
+
+Teller allows developers and CI/CD pipelines to seamlessly fetch, sync, and export secrets across multiple secret providers (Vault, AWS Secrets Manager, Doppler, GCP Secret Manager, Azure Key Vault, etc.) into application runtime environments.
+
+### Features
+
+* Multi-vault provider aggregation
+* Zero secret hardcoding in repositories
+* Local development and CI/CD injection
+* Secret drift detection across environments
+* Key-value formatting and export
+
+---
+
+# 40. Keywhiz [![GitHub stars](https://img.shields.io/github/stars/square/keywhiz?style=social&color=white)](https://github.com/square/keywhiz/stargazers)
+
+https://github.com/square/keywhiz
+
+**Square's open-source system for distributing and managing secrets.**
+
+Keywhiz provides centralized secret storage with mutual TLS (mTLS) authentication and fine-grained access control for server fleets and microservices.
+
+### Features
+
+* Cryptographically verified workload identity via mTLS
+* Centralized secrets distribution
+* RESTful JSON API
+* Secret versioning and access auditing
+* CLI client management
+
+---
+
+# 41. Bank-Vaults [![GitHub stars](https://img.shields.io/github/stars/bank-vaults/bank-vaults?style=social&color=white)](https://github.com/bank-vaults/bank-vaults/stargazers)
+
+https://github.com/bank-vaults/bank-vaults
+
+https://bank-vaults.dev/
+
+**The Vault Swiss-army knife: CLI, Operator, and Mutating Webhook for Kubernetes.**
+
+Bank-Vaults provides transparent secrets injection into Kubernetes Pods directly into environment variables or memory without ever writing secrets to disk or Kubernetes Secret objects.
+
+### Features
+
+* Mutating admission webhook for in-memory secret injection
+* Kubernetes operator for automated Vault initialization and unsealing
+* Cloud KMS auto-unseal integration
+* Zero secrets stored in Kubernetes etcd
+* Multi-cloud external secrets replication
+
+---
+
+# 42. Knox [![GitHub stars](https://img.shields.io/github/stars/pinterest/knox?style=social&color=white)](https://github.com/pinterest/knox/stargazers)
+
+https://github.com/pinterest/knox
+
+**Pinterest's service for cryptographic key and secret management.**
+
+Knox stores sensitive credentials, TLS certificates, and keys with automated rotation, machine-to-machine mutual authentication, and comprehensive audit logs.
+
+### Features
+
+* High-availability secrets storage
+* Automatic secret rotation and key retirement
+* Machine-level access policies
+* Audit trail for secret access
+* REST API and client libraries
+
+---
+
+# 43. Vals [![GitHub stars](https://img.shields.io/github/stars/helmfile/vals?style=social&color=white)](https://github.com/helmfile/vals/stargazers)
+
+https://github.com/helmfile/vals
+
+**Helm-like configuration values loader with support for various secret backends.**
+
+Vals enables referencing external secret URIs directly in YAML and Helm configuration files, automatically resolving them at deployment time from Vault, AWS Secrets Manager, SSM Parameter Store, GCP Secret Manager, Azure Key Vault, SOPS, and more.
+
+### Features
+
+* Uniform URI-based secret referencing (`ref+vault://`, `ref+awssecrets://`)
+* Integrates seamlessly with Helmfile, Terraform, and Kustomize
+* Multi-cloud backend support
+* Zero secret plaintexts stored in GitOps repos
+
+---
 
 # Commercial → Open-Source Mapping
 
@@ -4154,113 +4312,65 @@ Monitoring
 
 # Open-Source Shortlist
 
-
-
-If the objective is to investigate the **strongest open-source options first**, the shortlist should be:
-
-
+If the objective is to investigate the **strongest open-source options first**, the shortlist ranked by GitHub star counts within each tier is:
 
 ## Tier 1 — Full Secrets Platforms
 
-
-
-1. [OpenBao](https://github.com/openbao/openbao)
-
-2. [Infisical](https://github.com/Infisical/infisical)
-
-3. [CyberArk Conjur OSS](https://github.com/cyberark/conjur)
-
-
+1. [Infisical](https://github.com/Infisical/infisical) [![GitHub stars](https://img.shields.io/github/stars/Infisical/infisical?style=social&color=white)](https://github.com/Infisical/infisical/stargazers)
+2. [OpenBao](https://github.com/openbao/openbao) [![GitHub stars](https://img.shields.io/github/stars/openbao/openbao?style=social&color=white)](https://github.com/openbao/openbao/stargazers)
+3. [Keywhiz](https://github.com/square/keywhiz) [![GitHub stars](https://img.shields.io/github/stars/square/keywhiz?style=social&color=white)](https://github.com/square/keywhiz/stargazers)
+4. [Knox](https://github.com/pinterest/knox) [![GitHub stars](https://img.shields.io/github/stars/pinterest/knox?style=social&color=white)](https://github.com/pinterest/knox/stargazers)
+5. [CyberArk Conjur OSS](https://github.com/cyberark/conjur) [![GitHub stars](https://img.shields.io/github/stars/cyberark/conjur?style=social&color=white)](https://github.com/cyberark/conjur/stargazers)
 
 ## Tier 2 — Kubernetes / Cloud Secret Delivery
 
-
-
-4. [External Secrets Operator](https://github.com/external-secrets/external-secrets)
-
-5. [Secrets Store CSI Driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver)
-
-6. [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets)
-
-
+1. [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) [![GitHub stars](https://img.shields.io/github/stars/bitnami-labs/sealed-secrets?style=social&color=white)](https://github.com/bitnami-labs/sealed-secrets/stargazers)
+2. [External Secrets Operator](https://github.com/external-secrets/external-secrets) [![GitHub stars](https://img.shields.io/github/stars/external-secrets/external-secrets?style=social&color=white)](https://github.com/external-secrets/external-secrets/stargazers)
+3. [Bank-Vaults](https://github.com/bank-vaults/bank-vaults) [![GitHub stars](https://img.shields.io/github/stars/bank-vaults/bank-vaults?style=social&color=white)](https://github.com/bank-vaults/bank-vaults/stargazers)
+4. [Secrets Store CSI Driver](https://github.com/kubernetes-sigs/secrets-store-csi-driver) [![GitHub stars](https://img.shields.io/github/stars/kubernetes-sigs/secrets-store-csi-driver?style=social&color=white)](https://github.com/kubernetes-sigs/secrets-store-csi-driver/stargazers)
 
 ## Tier 3 — GitOps / Encrypted Configuration
 
-
-
-7. [SOPS](https://github.com/getsops/sops)
-
-8. [age](https://github.com/FiloSottile/age)
-
-9. [git-crypt](https://github.com/AGWA/git-crypt)
-
-10. [KSOPS](https://github.com/viaduct-ai/kustomize-sops)
-
-
+1. [age](https://github.com/FiloSottile/age) [![GitHub stars](https://img.shields.io/github/stars/FiloSottile/age?style=social&color=white)](https://github.com/FiloSottile/age/stargazers)
+2. [SOPS](https://github.com/getsops/sops) [![GitHub stars](https://img.shields.io/github/stars/getsops/sops?style=social&color=white)](https://github.com/getsops/sops/stargazers)
+3. [git-crypt](https://github.com/AGWA/git-crypt) [![GitHub stars](https://img.shields.io/github/stars/AGWA/git-crypt?style=social&color=white)](https://github.com/AGWA/git-crypt/stargazers)
+4. [KSOPS](https://github.com/viaduct-ai/kustomize-sops) [![GitHub stars](https://img.shields.io/github/stars/viaduct-ai/kustomize-sops?style=social&color=white)](https://github.com/viaduct-ai/kustomize-sops/stargazers)
+5. [Vals](https://github.com/helmfile/vals) [![GitHub stars](https://img.shields.io/github/stars/helmfile/vals?style=social&color=white)](https://github.com/helmfile/vals/stargazers)
 
 ## Tier 4 — Team Secret / Password Management
 
-
-
-11. [Bitwarden](https://github.com/bitwarden)
-
-12. [Passbolt](https://github.com/passbolt/passbolt_api)
-
-13. [Psono](https://github.com/psono/psono-server)
-
-14. [Teampass](https://github.com/nilsteampassnet/TeamPass)
-
-15. [Vaultwarden](https://github.com/dani-garcia/vaultwarden)
-
-
+1. [Vaultwarden](https://github.com/dani-garcia/vaultwarden) [![GitHub stars](https://img.shields.io/github/stars/dani-garcia/vaultwarden?style=social&color=white)](https://github.com/dani-garcia/vaultwarden/stargazers)
+2. [KeePassXC](https://github.com/keepassxreboot/keepassxc) [![GitHub stars](https://img.shields.io/github/stars/keepassxreboot/keepassxc?style=social&color=white)](https://github.com/keepassxreboot/keepassxc/stargazers)
+3. [Bitwarden](https://github.com/bitwarden/server) [![GitHub stars](https://img.shields.io/github/stars/bitwarden/server?style=social&color=white)](https://github.com/bitwarden/server/stargazers)
+4. [Passbolt](https://github.com/passbolt/passbolt_api) [![GitHub stars](https://img.shields.io/github/stars/passbolt/passbolt_api?style=social&color=white)](https://github.com/passbolt/passbolt_api/stargazers)
+5. [Teampass](https://github.com/nilsteampassnet/TeamPass) [![GitHub stars](https://img.shields.io/github/stars/nilsteampassnet/TeamPass?style=social&color=white)](https://github.com/nilsteampassnet/TeamPass/stargazers)
+6. [Psono](https://github.com/psono/psono-server) [![GitHub stars](https://img.shields.io/github/stars/psono/psono-server?style=social&color=white)](https://github.com/psono/psono-server/stargazers)
 
 ## Tier 5 — CLI / Developer Secrets
 
-
-
-16. [gopass](https://github.com/gopasspw/gopass)
-
-17. [pass](https://www.passwordstore.org/)
-
-18. [Chamber](https://github.com/segmentio/chamber)
-
-19. [Credstash](https://github.com/fugue/credstash)
-
-
+1. [gopass](https://github.com/gopasspw/gopass) [![GitHub stars](https://img.shields.io/github/stars/gopasspw/gopass?style=social&color=white)](https://github.com/gopasspw/gopass/stargazers)
+2. [Teller](https://github.com/spectralops/teller) [![GitHub stars](https://img.shields.io/github/stars/spectralops/teller?style=social&color=white)](https://github.com/spectralops/teller/stargazers)
+3. [Chamber](https://github.com/segmentio/chamber) [![GitHub stars](https://img.shields.io/github/stars/segmentio/chamber?style=social&color=white)](https://github.com/segmentio/chamber/stargazers)
+4. [Credstash](https://github.com/fugue/credstash) [![GitHub stars](https://img.shields.io/github/stars/fugue/credstash?style=social&color=white)](https://github.com/fugue/credstash/stargazers)
+5. [pass](https://www.passwordstore.org/)
 
 ## Tier 6 — Secret Detection
 
-
-
-20. [Gitleaks](https://github.com/gitleaks/gitleaks)
-
-21. [TruffleHog](https://github.com/trufflesecurity/trufflehog)
-
-22. [ggshield](https://github.com/GitGuardian/ggshield)
-
-23. [detect-secrets](https://github.com/Yelp/detect-secrets)
-
-24. [git-secrets](https://github.com/awslabs/git-secrets)
-
-25. [Secretlint](https://github.com/secretlint/secretlint)
-
-26. [Semgrep](https://github.com/semgrep/semgrep)
-
-
+1. [Gitleaks](https://github.com/gitleaks/gitleaks) [![GitHub stars](https://img.shields.io/github/stars/gitleaks/gitleaks?style=social&color=white)](https://github.com/gitleaks/gitleaks/stargazers)
+2. [TruffleHog](https://github.com/trufflesecurity/trufflehog) [![GitHub stars](https://img.shields.io/github/stars/trufflesecurity/trufflehog?style=social&color=white)](https://github.com/trufflesecurity/trufflehog/stargazers)
+3. [Semgrep](https://github.com/semgrep/semgrep) [![GitHub stars](https://img.shields.io/github/stars/semgrep/semgrep?style=social&color=white)](https://github.com/semgrep/semgrep/stargazers)
+4. [git-secrets](https://github.com/awslabs/git-secrets) [![GitHub stars](https://img.shields.io/github/stars/awslabs/git-secrets?style=social&color=white)](https://github.com/awslabs/git-secrets/stargazers)
+5. [detect-secrets](https://github.com/Yelp/detect-secrets) [![GitHub stars](https://img.shields.io/github/stars/Yelp/detect-secrets?style=social&color=white)](https://github.com/Yelp/detect-secrets/stargazers)
+6. [ggshield](https://github.com/GitGuardian/ggshield) [![GitHub stars](https://img.shields.io/github/stars/GitGuardian/ggshield?style=social&color=white)](https://github.com/GitGuardian/ggshield/stargazers)
+7. [Secretlint](https://github.com/secretlint/secretlint) [![GitHub stars](https://img.shields.io/github/stars/secretlint/secretlint?style=social&color=white)](https://github.com/secretlint/secretlint/stargazers)
 
 ## Tier 7 — Cryptography / PKI
 
-
-
-27. [GnuPG](https://github.com/gpg/gnupg)
-
-28. [OpenSSL](https://github.com/openssl/openssl)
-
-29. [age](https://github.com/FiloSottile/age)
-
-30. [step-ca](https://github.com/smallstep/certificates)
-
-31. [SoftHSM2](https://github.com/opendnssec/SoftHSMv2)
+1. [OpenSSL](https://github.com/openssl/openssl) [![GitHub stars](https://img.shields.io/github/stars/openssl/openssl?style=social&color=white)](https://github.com/openssl/openssl/stargazers)
+2. [age](https://github.com/FiloSottile/age) [![GitHub stars](https://img.shields.io/github/stars/FiloSottile/age?style=social&color=white)](https://github.com/FiloSottile/age/stargazers)
+3. [step-ca](https://github.com/smallstep/certificates) [![GitHub stars](https://img.shields.io/github/stars/smallstep/certificates?style=social&color=white)](https://github.com/smallstep/certificates/stargazers)
+4. [SoftHSM2](https://github.com/opendnssec/SoftHSMv2) [![GitHub stars](https://img.shields.io/github/stars/opendnssec/SoftHSMv2?style=social&color=white)](https://github.com/opendnssec/SoftHSMv2/stargazers)
+5. [GnuPG](https://github.com/gpg/gnupg) [![GitHub stars](https://img.shields.io/github/stars/gpg/gnupg?style=social&color=white)](https://github.com/gpg/gnupg/stargazers)
 
 
 
