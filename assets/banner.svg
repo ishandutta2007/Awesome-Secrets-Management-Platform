@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+
+    <linearGradient id="cyberGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#a855f7;#06b6d4;#38bdf8" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#38bdf8;#ec4899;#818cf8" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#06b6d4;#818cf8;#c084fc" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <radialGradient id="pulseGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+
+    <style>
+      @keyframes floatSlow {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-7px); }
+      }
+      @keyframes pulseRing {
+        0%, 100% { transform: scale(1); opacity: 0.35; }
+        50% { transform: scale(1.08); opacity: 0.85; }
+      }
+      @keyframes dashFlow {
+        to { stroke-dashoffset: -36; }
+      }
+      .floating-group {
+        animation: floatSlow 5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .pulsing-ring {
+        animation: pulseRing 3.5s ease-in-out infinite;
+        transform-origin: 180px 160px;
+      }
+      .circuit-line {
+        stroke-dasharray: 6 5;
+        animation: dashFlow 2.5s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- Tech Grid Lines -->
+  <g stroke="#334155" stroke-opacity="0.25" stroke-width="1">
+    <line x1="0" y1="64" x2="1200" y2="64"/>
+    <line x1="0" y1="128" x2="1200" y2="128"/>
+    <line x1="0" y1="192" x2="1200" y2="192"/>
+    <line x1="0" y1="256" x2="1200" y2="256"/>
+    <line x1="120" y1="0" x2="120" y2="320"/>
+    <line x1="240" y1="0" x2="240" y2="320"/>
+    <line x1="360" y1="0" x2="360" y2="320"/>
+    <line x1="480" y1="0" x2="480" y2="320"/>
+    <line x1="600" y1="0" x2="600" y2="320"/>
+    <line x1="720" y1="0" x2="720" y2="320"/>
+    <line x1="840" y1="0" x2="840" y2="320"/>
+    <line x1="960" y1="0" x2="960" y2="320"/>
+    <line x1="1080" y1="0" x2="1080" y2="320"/>
+  </g>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="180" cy="160" r="140" fill="url(#pulseGlow)"/>
+  <circle cx="980" cy="120" r="180" fill="url(#pulseGlow)" opacity="0.4"/>
+
+  <!-- Circuit Network Lines -->
+  <g fill="none" stroke="#0ea5e9" stroke-opacity="0.45" stroke-width="1.5">
+    <path class="circuit-line" d="M 180 160 L 320 160 L 360 210 L 520 210"/>
+    <path class="circuit-line" d="M 180 160 L 260 80 L 420 80 L 460 110"/>
+    <path class="circuit-line" d="M 180 160 L 140 240 L 40 240"/>
+    <path class="circuit-line" d="M 1020 80 L 940 80 L 890 140 L 780 140"/>
+    <path class="circuit-line" d="M 1120 220 L 1020 220 L 980 180 L 850 180"/>
+  </g>
+
+  <!-- Node Dots -->
+  <circle cx="320" cy="160" r="3.5" fill="#38bdf8"/>
+  <circle cx="360" cy="210" r="3" fill="#a855f7"/>
+  <circle cx="520" cy="210" r="4" fill="#38bdf8"/>
+  <circle cx="260" cy="80" r="3.5" fill="#38bdf8"/>
+  <circle cx="420" cy="80" r="3" fill="#ec4899"/>
+  <circle cx="890" cy="140" r="3.5" fill="#38bdf8"/>
+  <circle cx="980" cy="180" r="3" fill="#818cf8"/>
+
+  <!-- Left Emblem: Floating Cyber Vault Lock -->
+  <g class="floating-group">
+    <circle class="pulsing-ring" cx="180" cy="160" r="75" fill="none" stroke="url(#cyberGlow)" stroke-width="1.5" stroke-dasharray="6 6"/>
+    <circle cx="180" cy="160" r="62" fill="#0f172a" fill-opacity="0.85" stroke="#38bdf8" stroke-width="2" filter="url(#softGlow)"/>
+
+    <!-- Shield & Vault Silhouette -->
+    <path d="M 180 112 L 222 130 C 222 170 198 198 180 208 C 162 198 138 170 138 130 Z" fill="url(#shieldGrad)" stroke="#38bdf8" stroke-width="2" filter="url(#softGlow)"/>
+
+    <!-- Keyhole / Shackle Emblem -->
+    <path d="M 169 148 V 139 C 169 133 174 128 180 128 C 186 128 191 133 191 139 V 148" fill="none" stroke="#f8fafc" stroke-width="3.5" stroke-linecap="round"/>
+    <rect x="162" y="148" width="36" height="28" rx="5" fill="#0284c7" stroke="#bae6fd" stroke-width="1.5"/>
+    <circle cx="180" cy="158" r="3.5" fill="#0f172a"/>
+    <path d="M 178.5 158 L 177 169 H 183 L 181.5 158 Z" fill="#0f172a"/>
+  </g>
+
+  <!-- Typography & Headers -->
+  <g transform="translate(340, 0)">
+    <!-- Category Badge -->
+    <g transform="translate(0, 54)">
+      <rect x="0" y="0" width="280" height="28" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5"/>
+      <circle cx="14" cy="14" r="5" fill="#10b981">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="28" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="1.5">ENTERPRISE SECURITY &amp; PKI</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="900" fill="url(#cyberGlow)" filter="url(#softGlow)" letter-spacing="-0.5">
+      Awesome Secrets Management
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="170" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="500" fill="#94a3b8" letter-spacing="0.2">
+      Curated Enterprise Reference: Commercial SaaS &amp; Open-Source Alternatives
+    </text>
+
+    <!-- Feature Tags Row -->
+    <g transform="translate(0, 204)">
+      <rect x="0" y="0" width="115" height="26" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+      <text x="57" y="17" font-family="sans-serif" font-size="11.5" font-weight="600" fill="#38bdf8" text-anchor="middle">🛡️ Zero-Trust</text>
+
+      <rect x="125" y="0" width="145" height="26" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+      <text x="197" y="17" font-family="sans-serif" font-size="11.5" font-weight="600" fill="#a855f7" text-anchor="middle">⚡ Dynamic Secrets</text>
+
+      <rect x="280" y="0" width="125" height="26" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+      <text x="342" y="17" font-family="sans-serif" font-size="11.5" font-weight="600" fill="#06b6d4" text-anchor="middle">📦 GitOps &amp; SOPS</text>
+
+      <rect x="415" y="0" width="120" height="26" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+      <text x="475" y="17" font-family="sans-serif" font-size="11.5" font-weight="600" fill="#ec4899" text-anchor="middle">☸️ K8s Delivery</text>
+
+      <rect x="545" y="0" width="155" height="26" rx="6" fill="#1e293b" fill-opacity="0.8" stroke="#475569" stroke-width="1"/>
+      <text x="622" y="17" font-family="sans-serif" font-size="11.5" font-weight="600" fill="#10b981" text-anchor="middle">🔑 Machine Identity</text>
+    </g>
+
+    <!-- Stats Bar -->
+    <g transform="translate(0, 256)" fill="#64748b" font-family="sans-serif" font-size="12" font-weight="500">
+      <text x="0" y="14">🔥 35+ Curated Open-Source Tools</text>
+      <text x="230" y="14">•</text>
+      <text x="245" y="14">💼 25 SaaS Platforms Analyzed</text>
+      <text x="450" y="14">•</text>
+      <text x="465" y="14">🏆 Live Stars &amp; Verified Pricing</text>
+    </g>
+  </g>
+
+  <!-- Decorative Corner Accents -->
+  <g stroke="#38bdf8" stroke-width="2" fill="none" opacity="0.7">
+    <path d="M 12 36 V 12 H 36"/>
+    <path d="M 1188 36 V 12 H 1164"/>
+    <path d="M 12 284 V 308 H 36"/>
+    <path d="M 1188 284 V 308 H 1164"/>
+  </g>
+</svg>
